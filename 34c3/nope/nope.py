@@ -32,12 +32,12 @@ def addl(r, imm8):
 
 
 def subl(r, imm8):
-    """Subtracts imm8 to the lower DW of r.
+    """Subtracts imm8 to the LSB of r.
 
     If r is rax, the subtraction is done in-place, otherwise r is moved to rax
     first, then moved back.
 
-    NOTE: this is achieved by imm32 * 3 instructions.
+    NOTE: this is achieved by approximately imm8 * 3 instructions.
     """
     seq = ''
     for _ in range(imm8):
