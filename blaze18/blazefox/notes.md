@@ -3,8 +3,8 @@ The challenge gives us an OOB read/write primitive from Arrays (see [patch](blaz
 Recommended readings are:
 
 * [Attacking JavaScript Engines](http://phrack.org/papers/attacking_javascript_engines.html)
-* [https://bruce30262.github.io/2017/12/15/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/](Learning browser exploitation via 33C3 CTF feuerfuchs challenge)
-* [https://github.com/saelo/feuerfuchs/blob/master/exploit/pwn.js](feuerfuchs exploit by saleo): I shamelessly appropriated the Int64 and memory classes from this
+* [Learning browser exploitation via 33C3 CTF feuerfuchs challenge](https://bruce30262.github.io/2017/12/15/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge)
+* [feuerfuchs exploit by saleo](https://github.com/saelo/feuerfuchs/blob/master/exploit/pwn.js): I shamelessly appropriated the Int64 and memory classes from this
 
 
 ## Debugging environment
